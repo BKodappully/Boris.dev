@@ -61,4 +61,20 @@ body {
   #contact {
     background: linear-gradient(180deg, #ddffdd, #ccffcc);
   }
+  .icons {
+    text-align: center; /* Centers the row of images */
+  }
   
+  .icon {
+    display: inline-block;
+    margin: 0 10px; /* Adds spacing between the images */
+    width: 50px;
+    height: 50px;
+    transition: transform 0.5s ease;  /* Smooth transition over 0.5 seconds */
+
+  }
+  .icon:hover {
+    transform: scale(1.5);
+    filter: brightness(1.5); /* Makes the icon brighter on hover */
+  }
+    
